@@ -1,0 +1,335 @@
+@media screen and (max-width: 1350px) {
+  .container {
+    max-width: 1100px;
+  }
+
+  .intro__bac {
+    display: none;
+  }
+
+  /* intro */
+
+  .intro__title2 {
+    font-size: 19.5px;
+  }
+
+  .intro__text {
+    font-size: 16.5px;
+  }
+
+  .intro__text2 {
+    font-size: 16.5px;
+
+    text-align: center;
+  }
+
+  .intro__search {
+    width: 330px;
+    height: 55px;
+  }
+
+  .intro__search__img::after {
+    width: 60px;
+    height: 55px;
+  }
+
+  /* info */
+
+  .info__text {
+    font-size: 14px;
+  }
+
+  /* vip */
+
+  .vip__inner {
+    justify-content: space-around;
+  }
+
+  .left {
+    margin-left: 0;
+  }
+
+  .elips {
+    padding-bottom: 100px;
+  }
+
+  /* karta */
+
+  .karta__inner {
+    margin-left: 130px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 900px;
+  }
+
+  /* intro */
+
+  .intro__search {
+    width: 200px;
+    height: 55px;
+  }
+
+  .intro__search__img::after {
+    width: 60px;
+    height: 55px;
+  }
+
+  .intro__text {
+    width: 100%;
+    max-width: 520px;
+
+    margin-right: 50px;
+  }
+
+  /* info */
+
+  .info__inner {
+    flex-wrap: wrap;
+  }
+
+  .info__icon {
+    width: 385px;
+    height: 277px;
+
+    margin-bottom: 30px;
+  }
+
+  .info__icon:last-child {
+    margin-bottom: -30px;
+  }
+
+  /*vip */
+
+  .vip__block img {
+    width: 160px;
+    height: 220px;
+  }
+
+  .vip__text {
+    width: 260px;
+    height: 220px;
+  }
+
+  .vip__subtitle,
+  .vip__data {
+    margin-bottom: 5px;
+  }
+
+  .vip__box {
+    margin-bottom: 20px;
+  }
+
+  .vip__info {
+    margin-left: 10px;
+  }
+
+  /* karta */
+
+  .karta {
+    width: 100%;
+  }
+
+  .karta__inner {
+    width: 350px;
+  }
+
+  .email__btn {
+    width: 100%;
+    max-width: 1601px;
+
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+
+  /* header */
+
+  .header__btn {
+    padding: 10px 30px;
+  }
+
+  .header__logo {
+    max-width: 200px;
+  }
+
+  /* intro */
+
+  .intro__bac2 {
+    height: 1000px;
+  }
+
+  .intro__inner2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+  }
+
+  .intro__button {
+    width: 300px;
+    display: flex;
+
+    margin: 0 auto;
+  }
+
+  .intro__icon__left {
+    padding-bottom: 70px;
+  }
+
+  .intro__title {
+    text-align: center;
+
+    padding-top: 40px;
+  }
+
+  .intro__text {
+    text-align: center;
+  }
+
+  .intro__search {
+    width: 385px;
+    height: 65px;
+  }
+
+  .intro__search__img::after {
+    width: 72px;
+    height: 65px;
+  }
+
+  /* vip */
+
+  .vip {
+    height: 100%;
+  }
+
+  .vip__inner {
+    flex-wrap: wrap;
+  }
+
+  .vip__title,
+  .vip__titleright {
+    text-align: center;
+  }
+
+  .vip__info {
+    margin-left: 32px;
+  }
+
+  .elips {
+    margin-bottom: -50px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* header */
+
+  .header {
+    margin-top: 30px;
+  }
+
+  .header__inner {
+    flex-wrap: wrap;
+  }
+
+  .header__logo {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .header__lang {
+    justify-content: space-around;
+  }
+
+  /* intro */
+
+  .intro__bac2 {
+    height: 900px;
+
+    margin-bottom: -40px;
+  }
+
+  .intro__icon__left {
+    width: 100%;
+  }
+
+  .intro__text {
+    font-size: 15px;
+  }
+
+  .intro__button {
+    width: 200px;
+    display: flex;
+
+    margin: 0 auto;
+  }
+
+  .intro__btn {
+    text-align: center;
+
+    padding: 10px 30px;
+  }
+
+  .intro__icon__right {
+    width: 320px;
+    height: 400px;
+  }
+
+  .intro__search {
+    width: 200px;
+    height: 50px;
+  }
+
+  .intro__search__img::after {
+    width: 67px;
+    height: 50px;
+  }
+
+  /* vip */
+
+  .vip__block {
+    width: 320px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+
+  .vip__text {
+    margin-bottom: 10px;
+  }
+
+  .vip__block img {
+    width: 216px;
+    height: 255px;
+
+    order: 1;
+  }
+
+  .elips {
+    width: 320px;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+  }
+
+  /* karta */
+
+  .karta__inner {
+    width: 250px;
+    height: 300px;
+
+    margin-left: 50px;
+  }
+
+  .karta__icon {
+    padding-top: 15px;
+  }
+}

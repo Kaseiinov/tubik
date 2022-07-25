@@ -1,0 +1,567 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+/* font-family: 'Inter', sans-serif; */
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1230px;
+
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/* header */
+
+.header {
+  margin: 50px 0 50px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 265px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.header__btnlang {
+  display: flex;
+  align-items: center;
+}
+
+.header__btn {
+  padding: 15px 62px;
+  background-color: #ffff;
+  color: black;
+  border: 1px solid #0194c7;
+  border-radius: 27px;
+
+  text-decoration: none;
+
+  transition: 0.2s all;
+}
+
+.header__lang:hover {
+  color: #0194c7;
+
+  transition: 0.2s all;
+}
+
+.header__btn:hover {
+  background-color: #0194c7;
+  color: #fff;
+}
+
+.header__lang {
+  text-decoration: none;
+
+  margin-left: 60px;
+}
+
+.header__btnlang {
+  text-decoration: none;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.header__btnlang {
+  text-decoration: none;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+/* .intro */
+
+.intro {
+  margin-bottom: 100px;
+}
+
+.intro__bac {
+  width: 100%;
+
+  height: 75px;
+
+  background-color: #0194c7;
+}
+
+.intro__nav {
+  width: 100%;
+  height: 75px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro__nav a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.5px;
+  line-height: 22px;
+
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+.intro__bac2 {
+  width: 100%;
+  height: 100%;
+  background-color: #2eafdc;
+  opacity: 87%;
+}
+
+.intro__inner2 {
+  width: 100%;
+  height: 555px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.intro__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.5px;
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+
+  margin-bottom: 40px;
+}
+
+.intro__text {
+  width: 100%;
+  max-width: 576px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.5px;
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+
+  margin-bottom: 80px;
+}
+
+.intro__btn {
+  padding: 15px 62px;
+  background-color: #2eafdc;
+  opacity: 87%;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 27px;
+  text-decoration: none;
+
+  transition: 0.2s all;
+}
+
+.intro__btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.intro__icon__right {
+  width: 544px;
+  height: 555px;
+  background-color: #ffff;
+  opacity: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro__title2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 22px;
+  /* identical to box height, or 96% */
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+
+  margin-bottom: 35px;
+}
+
+.intro__search__img {
+  display: flex;
+
+  margin-bottom: 42px;
+}
+
+.intro__search {
+  width: 385px;
+  height: 65px;
+  background-color: #ffffff;
+  opacity: 100%;
+  border: 1px solid #0194c7;
+}
+
+.intro__search__img::after {
+  width: 72px;
+  height: 65px;
+  background: url(img/search.png) no-repeat center;
+  background-color: #0194c7;
+  content: "";
+}
+
+.intro__text2 {
+  width: 100%;
+  max-width: 452px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.5px;
+  line-height: 28px;
+  /* or 170% */
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+/* info */
+
+.info__inner {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 90px;
+}
+
+.info__icon {
+  width: 30%;
+  max-height: 287px;
+  background-color: #fff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.info__title {
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.5px;
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+
+  padding-top: 30px;
+  margin-left: 21px;
+}
+
+.info__title::after {
+  width: 77px;
+  height: 3px;
+  display: block;
+  background-color: #2eafdc;
+  content: "";
+
+  margin: 17px 0 27px;
+}
+
+.info__text {
+  width: 85%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+
+  margin-left: 21px;
+  padding-bottom: 30px;
+}
+
+/* vip */
+
+.vip {
+  width: 100%;
+
+  min-height: 620px;
+
+  background-color: #ffffff;
+
+  margin: 0 auto;
+}
+
+.vip__inner {
+  padding-top: 85px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.left {
+  margin-left: 186px;
+}
+
+.vip__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.5px;
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+
+  margin-bottom: 33px;
+}
+
+.vip__block {
+  display: flex;
+
+  margin-bottom: 40px;
+}
+
+.vip__text {
+  width: 316px;
+  height: 257px;
+
+  background-color: #f3f3f3;
+  padding-left: 32px;
+}
+
+.vip__subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.5px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+
+  margin-bottom: 15px;
+  margin-top: 23px;
+}
+
+.vip__data {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+
+  margin-bottom: 15px;
+}
+
+.vip__aftor {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 20px;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+.vip__titleright {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.5px;
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+
+  margin-bottom: 32px;
+}
+
+.vip__info {
+  width: 225px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.5px;
+  line-height: 24px;
+  /* or 166% */
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+  margin-left: 32px;
+}
+
+.vip__box {
+  display: flex;
+
+  margin-bottom: 40px;
+}
+
+.vip__img {
+  width: 45px;
+  height: 51px;
+
+  background: url(img/vip__info.png);
+}
+
+.elips {
+  width: 100%;
+
+  margin-left: 50%;
+  padding-bottom: 1px;
+}
+
+.elips img {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+/* karta */
+
+.karta {
+  width: 100%;
+  max-width: 1601px;
+  height: 503px;
+  background: url(img/karta.png) no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+.karta__inner {
+  width: 100%;
+  max-width: 551px;
+  height: 391px;
+
+  background-color: #ffffff;
+}
+
+.karta__icon {
+  padding-top: 60px;
+  margin-left: 40px;
+}
+
+.karta__text {
+  width: 150px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.5px;
+  line-height: 26px;
+  /* or 149% */
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+
+  margin-bottom: 50px;
+}
+
+.karta__email {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.5px;
+  line-height: 26px;
+  display: block;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+
+  margin-bottom: 60px;
+}
+
+/* email */
+
+.email {
+  width: 100%;
+  height: 122px;
+
+  background: #000000;
+}
+
+.email__btn a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-decoration: none;
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+.email__btn {
+  padding-top: 50px;
+}
